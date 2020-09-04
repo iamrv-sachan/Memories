@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="button_rad">10dp</dimen>
+    <dimen name="content_padding">15dp</dimen>
+    <dimen name="scroll_padding">60dp</dimen>
+    <dimen name="no_MEMORIES">30sp</dimen>
+
+    <dimen name="item_card_view_margiStartEnd">8dp</dimen>
+    <dimen name="item_card_view_corner_radius">3dp</dimen>
+    <dimen name="item_card_view_elevation">15dp</dimen>
+    <dimen name="item_circular_image_size">70dp</dimen>
+    <dimen name="item_content_padding">5dp</dimen>
+
+    <dimen name="item_ll_margin_start">10dp</dimen>
+    <dimen name="item_ll_margin_end">2dp</dimen>
+    <dimen name="item_title_text_size">16dp</dimen>
+    <dimen name="item_title_description_size">14dp</dimen>
+</resources>

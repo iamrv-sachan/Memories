@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Memories</string>
+    <string name="no_memories">NO MEMORIES YET.</string>
+    <string name="image_content_description">image</string>
+</resources>

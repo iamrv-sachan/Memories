@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@drawable/actionadd">
+
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerVIEW"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/no_memories_text"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:text="@string/no_memories"-->
+<!--        android:textSize="@dimen/no_MEMORIES">-->
+
+<!--    </TextView>-->
+
+
+<!--    <Button-->
+<!--        android:id="@+id/go_to_faltu"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:text="to faltu"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        -->
+<!--        ></Button>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/dataBASE"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Button" />-->
+
+</FrameLayout>
